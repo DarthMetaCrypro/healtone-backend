@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER commit real secrets!)
+.env
+.env.local
+.env.production
+.env.development
+
+# Railway / Vercel / Netlify build cache
+.vercel
+.railway
+.netlify
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Optional: IDE folders
+.vscode/
+.idea/
